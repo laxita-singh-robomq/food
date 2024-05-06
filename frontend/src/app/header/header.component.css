@@ -1,28 +1,39 @@
 /* navigation.component.css */
 
 .mat-toolbar {
-    background-color: #cb76d6; /* Change the background color */
-    color: white; /* Change the text color */
-    font:bolder;
+    background-color: #82d4e2;
+    /* Change the background color */
+    color: rgb(46, 31, 31);
+    /* Change the text color */
+    font: bolder;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+span {
+    padding-right: 1rem;
+}
+
+.class-image {
+    width: 45%px;
+    /* Adjust as needed */
+    height: 20%;
+    /* Maintain aspect ratio */
+    max-width: 300px;
+    /* Maximum width */
+}
+
+
+
+.small-card {
+    width: 100%;
+    background-color: goldenrod;
+    /* Adjust as needed */
+}
+.card-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Add space between cards */
   }
   
-  .spacer {
-    flex: 1; /* Pushes the buttons to the right */
-  }
-  
-  /* Style the buttons */
-  button.mat-button {
-    color: white; /* Text color */
-  }
-  
-  button.mat-button:hover {
-    background-color: #1565C0; /* Hover background color */
-  }
-  
-  button.mat-button:focus {
-    outline: none; /* Remove the outline when focused */
-  }
-  
-  .mat-toolbar span:first-child {
-    font-family: 'Lato', sans-serif; /* Replace 'YourCustomFont' with your desired font */
-  }
